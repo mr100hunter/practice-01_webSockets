@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/athletic/public_html/
+    - /bin/cp * $DEPLOYPATH
